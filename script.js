@@ -31,7 +31,7 @@ function find(array, callback) {
 			return array[i];
 		}
 	}
-	return undefined;
+	return -1;
 }
 console.log(find(arrayFind, callbackFind));
 console.log(find(arrayFind, callbackFindTwo));
